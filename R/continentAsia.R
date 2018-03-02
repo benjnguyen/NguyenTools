@@ -6,6 +6,7 @@
            #' continentAsia()
            continentAsia <- function()
            {
+           library(magrittr)
            gp2007 %>%
            dplyr::filter(continent == 'Asia')
            }

@@ -16,6 +16,11 @@ library(NguyenTools)
 
 The following functions were provided in Homework 1 and Quiz 1 of STAT 3701.
 
+The function 'continentAsia()' is a wrapper that uses the dataset 'gp2007', which will be described later down in the vignette. It filters the data by continents; namely it pulls out the part of the data in which the continent is 'Asia.'
+```{r contasia, include = TRUE}
+continentAsia()
+```
+
 The function 'func1' computes the mean, variance, and standard deviation of a vector of data.
 ```{r func1, include = TRUE}
 func1(rnorm(10))
