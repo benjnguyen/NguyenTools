@@ -1,0 +1,16 @@
+Package: NguyenTools
+Title: Tools for STAT 3701
+Version: 0.0.1
+Authors@R: person("Benjamin", "Nguyen", email = "nguy2171@umn.edu", role = c("aut", "cre"))
+Description: This is a set of functions, etc for STAT 3701 class.
+Depends: R (>= 3.4.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: dplyr,
+    ggplot2
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
