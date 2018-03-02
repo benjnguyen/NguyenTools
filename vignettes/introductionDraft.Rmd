@@ -2,7 +2,7 @@
 title: "Q3/HW3 STAT 3701 R Package"
 author: "Benjamin Nguyen"
 date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{Vignette Title}
   %\VignetteEngine{knitr::rmarkdown}
