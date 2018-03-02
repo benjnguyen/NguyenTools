@@ -11,9 +11,6 @@
 
 # To test if that this works appropriately, use the install_github function
 library(devtools)
-install_github("benjnguyen/STAT3701Tutorial")
-library(LastFirstTools)
-
 install_github("benjnguyen/STAT3701HW3")
 install_github("benjnguyen/NguyenTools")
 library(NguyenTools)
