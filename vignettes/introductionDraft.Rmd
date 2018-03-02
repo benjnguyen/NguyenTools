@@ -8,8 +8,11 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+This vignette is documented to demonstrate the innards of the my package "NguyenTools". Inside the package are datasets and functions. The following documentation will illustrate rudimentary ways to use the data sets and the functions.
+
 ```{r lib, include = TRUE}
 library(ggplot2)
+library(magrittr)
 library(NguyenTools)
 ```
 ## Demonstration of using functions in package
